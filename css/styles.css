@@ -69,3 +69,79 @@ p {
 		border-bottom: none;
 	}
 }
+
+/* login box */
+#login-dp {
+	min-width: 250px;
+	padding: 14px 14px 0;
+	overflow: hidden;
+	background-color: rgba(255, 255, 255, 0.8);
+}
+
+b {
+	font-weight: 400;
+}
+
+#login-dp .help-block {
+	font-size: 12px;
+}
+
+#login-dp .bottom {
+	background-color: rgba(255, 255, 255, 0.9);
+	border-top: 1px solid #DDDDDD;
+	clear: both;
+	padding: 14px;
+}
+
+#login-dp .social-buttons {
+	margin: 12px 0;
+}
+
+#login-dp .social-buttons a {
+	width: 49%;
+}
+
+#login-dp .form-group {
+	margin-bottom: 10px;
+}
+
+.btn-fb {
+	color: #FFFFFF;
+	background-color: #3B5998;
+}
+
+.btn-fb:hover {
+	background-color: #496EBC;
+}
+
+.btn-tw {
+	color: #FFFFFF;
+	background-color: #55ACEE;
+}
+
+.btn-tw {
+	background-color: #59B5FA;
+}
+
+#login-btn {
+	background-color: #F34747;
+	border: 0;
+	border-radius: 0;
+	height: 2.5em;
+}
+
+.social-buttons i {
+	margin-right: 5px;
+}
+
+@media (max-width: 768px) {
+	#login-dp {
+		background-color: inherit;
+		color: #FFFFFF;
+	}
+
+	#login-dp .bottom {
+		background-color: inherit;
+		border-top: 0 none;
+	}
+}
