@@ -49,3 +49,23 @@ p {
 	color: #3C3C3C !important;
 	border: 1px solid #FFFFFF !important;
 }
+
+/* Estilos navbar */
+
+.navbar {
+	background-color: #222220;
+	text-transform: uppercase;
+	font-weight: 300;
+	margin-bottom: -2px;
+	border-bottom: 2px solid #222220;
+}
+
+.navbar a:hover {
+	border-bottom: 2px solid #D34747;
+}
+
+@media (max-width: 768px) {
+	.navbar a:hover {
+		border-bottom: none;
+	}
+}
