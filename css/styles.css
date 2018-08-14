@@ -411,3 +411,33 @@ b {
 		font-size: 17px;
 	}
 }
+
+/*Clientes*/
+
+.clients {
+	padding: 50px 0 80px;
+	background-color: #BF5353;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.clients h2 {
+	color: #FFFFFF;
+}
+
+.clients p {
+	padding-bottom: 40px;
+}
+
+.clients img {
+	width: 200px;
+	cursor: pointer;
+	margin: 40px 0;
+}
+
+@media (max-width: 768px) {
+	.clients p {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
