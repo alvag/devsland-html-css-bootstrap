@@ -305,3 +305,61 @@ b {
 		font-size: 25px;
 	}
 }
+
+/*Precios*/
+
+.pricing {
+	padding: 50px 80px;
+	text-align: center;
+	background-color: #BF5353;
+}
+
+.pricing h2,
+.pricing p {
+	color: #FFFFFF;
+}
+
+.pricing p {
+	padding-bottom: 40px;
+	padding-top: 20px;
+}
+
+.packages {
+	padding: 30px;
+	border: 1px solid #CCCCCC;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	margin-top: 30px;
+}
+
+.packages ul li {
+	display: block;
+	padding: 5px;
+}
+
+.packages h4,
+.packages h1,
+.packages b {
+	color: #4C4C4C;
+}
+
+.packages p,
+.packages li {
+	color: #737373;
+}
+
+.packages button {
+	margin-top: 10px;
+}
+
+@media (max-width: 546px) {
+	.pricing {
+		padding: 50px 0;
+	}
+
+	.packages {
+		width: 90%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
