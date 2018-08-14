@@ -259,3 +259,49 @@ b {
 		margin-top: 50px;
 	}
 }
+
+/* Ventas */
+
+.sales {
+	padding: 150px 50px 60px 80px;
+	min-height: 600px;
+	margin-top: 150px;
+	color: #FFFFFF;
+	background-color: #222220;
+}
+
+.sales #left-side img {
+	height: 150px;
+	width: 400px;
+	min-height: 300px;
+	display: inline-block;
+	margin-left: 25px;
+}
+
+.sales #right-side {
+	margin-bottom: 50px;
+}
+
+.sales #right-side h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+}
+
+.sales #right-side p {
+	font-size: 17px;
+	text-align: justify;
+	line-height: 30px;
+	margin-top: 20px;
+}
+
+@media (max-width: 768px) {
+	.sales {
+		padding: 30px;
+		min-height: 500px;
+		margin-top: -10px;
+	}
+
+	.sales #right-side h1 {
+		font-size: 25px;
+	}
+}
