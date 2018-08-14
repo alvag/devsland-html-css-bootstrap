@@ -522,3 +522,47 @@ b {
 	background-color: #A85959 !important;
 	color: #FFFFFF !important;
 }
+
+/*Footer*/
+
+.footer {
+	padding: 30px;
+	color: #CCCCCC;
+	background-color: #222222;
+}
+
+.footer .social {
+	font-size: 20px;
+	height: 30px;
+	width: 30px;
+	text-align: center;
+	padding: 2px;
+	margin-bottom: 15px;
+	margin-right: 5px;
+	color: #EEEEEE;
+}
+
+.footer input {
+	height: 40px;
+	width: 185px;
+	padding: 5px;
+	border: none;
+	background-color: #CCCCCC;
+}
+
+.footer .btn {
+	padding: 10px 5px 10px;
+	margin: -3px 0 0 5px;
+}
+
+@media (max-width: 768px) {
+	.footer .btn {
+		margin: -2px 0 0 5px;
+	}
+}
+
+@media (max-width: 388px) {
+	.footer .btn {
+		margin: 7px 0 10px 0;
+	}
+}
