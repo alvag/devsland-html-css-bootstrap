@@ -483,3 +483,42 @@ b {
 .team a:hover {
 	background-color: #8CC36E;
 }
+
+/*Contacto*/
+
+.contact {
+	padding: 50px 0 80px;
+	text-align: center;
+	background-color: #BF5353;
+}
+
+.contact p {
+	padding-bottom: 70px;
+	color: #FFFFFF;
+	margin: 20px 0 20px;
+}
+
+.contact .input-group {
+	margin-bottom: 25px;
+}
+
+.contact .form-control {
+	border-radius: 0;
+}
+
+.contact span {
+	border-radius: 0;
+}
+
+.contact .btn {
+	margin-top: -12px;
+	border-radius: 0;
+	width: 100%;
+	font-size: 15px;
+	background-color: #F08080;
+}
+
+.contact .btn:hover {
+	background-color: #A85959 !important;
+	color: #FFFFFF !important;
+}
