@@ -270,7 +270,7 @@ b {
 	background-color: #222220;
 }
 
-.sales #left-side img {
+.sales #v-left-side img {
 	height: 150px;
 	width: 400px;
 	min-height: 300px;
@@ -278,16 +278,16 @@ b {
 	margin-left: 25px;
 }
 
-.sales #right-side {
+.sales #v-right-side {
 	margin-bottom: 50px;
 }
 
-.sales #right-side h1 {
+.sales #v-right-side h1 {
 	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
 }
 
-.sales #right-side p {
+.sales #v-right-side p {
 	font-size: 17px;
 	text-align: justify;
 	line-height: 30px;
@@ -301,7 +301,7 @@ b {
 		margin-top: -10px;
 	}
 
-	.sales #right-side h1 {
+	.sales #v-right-side h1 {
 		font-size: 25px;
 	}
 }
@@ -361,5 +361,53 @@ b {
 		width: 90%;
 		margin-left: auto;
 		margin-right: auto;
+	}
+}
+
+/*Misión*/
+
+.mission {
+	min-height: 600px;
+	padding: 120px 80px 80px;
+}
+
+#m-left-side {
+	margin-bottom: 50px;
+}
+
+#m-left-side h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 30px;
+}
+
+#m-left-side p {
+	margin-top: 20px;
+	font-size: 17px;
+	text-align: justify;
+	line-height: 30px;
+}
+
+#m-right-side img {
+	min-height: 300px;
+	width: 450px;
+	margin-left: 100px;
+}
+
+@media (max-width: 834px) {
+	.mission {
+		min-height: 600px;
+		margin-top: 20px;
+		padding: 80px 20px;
+	}
+
+	#m-right-side img {
+		margin-top: 60px;
+		height: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	#m-left-side h1 {
+		font-size: 17px;
 	}
 }
